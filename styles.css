@@ -1,14 +1,42 @@
 body {
-  background-color: teal;
+  background-color: #F0F5F9;
 }
 
-#board-container {
-  padding: 20px;
+#title {
+  color: #3B8686;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+}
+
+#attribution {
+  color: #454552;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.first-word {
+  color: #3B8686;
+}
+
+.second-word {
+  color: #79BD9A;
+}
+
+.third-word {
+  color: #A8DBA8;
+}
+
+table {
+  margin: 50px auto;
 }
 
 .square {
-  color: yellow;
-  font-family: Helvetica;
+  color: #E85A71;
+  font-family: 'Montserrat', sans-serif;
   font-size: 75px;
   height: 100px;
   width: 100px;
@@ -16,24 +44,47 @@ body {
   vertical-align: middle;
 }
 
+.square:hover {
+  color: #FEC9C9;
+}
+
 #two, #five, #eight {
-  border-left: 5px solid white;
-  border-right: 5px solid white;
+  border-left: 5px solid #3B8686;
+  border-right: 5px solid #3B8686;
 }
 
 #four, #five, #six {
-  border-bottom: 5px solid white;
-  border-top: 5px solid white;
+  border-bottom: 5px solid #3B8686;
+  border-top: 5px solid #3B8686;
 }
 
-#start-button {
-  border: 2px solid white;
+#reset-button {
+  display: none;
+}
+
+#start-button, #reset-button {
+  border: 2px solid #3B8686;
   border-radius: 5px;
-  color: white;
-  font-family: Helvetica;
+  color: #3B8686;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  margin-top: 20px;
+  font-weight: 400;
+  margin: 0 auto;
   text-align: center;
   padding: 10px 20px;
   width: 100px;
+}
+
+#start-button:hover, #reset-button:hover {
+  background-color: #3B8686;
+  color: white;
+}
+
+#message-board {
+  color: #454552;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 20px;
+  text-align: center;
 }
