@@ -203,7 +203,7 @@ function makeCornerMove() {
 }
 
 function checkRemainingMoves() {
-  // If no chancee at winning or blocking, then randomly selects one of the remaining squares
+  // If no chance at winning or blocking, then randomly selects one of the remaining squares
   var arr = [];
   for (var i = 0; i < board.length; i++) {
     for (var j = 0; j < board[i].length; j++) {

@@ -48,15 +48,6 @@ table {
   color: #FEC9C9;
 }
 
-#two, #five, #eight {
-  border-left: 5px solid #3B8686;
-  border-right: 5px solid #3B8686;
-}
-
-#four, #five, #six {
-  border-bottom: 5px solid #3B8686;
-  border-top: 5px solid #3B8686;
-}
 
 #reset-button {
   display: none;
